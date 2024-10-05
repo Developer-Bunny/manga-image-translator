@@ -15,6 +15,7 @@ import time
 import logging
 import numpy as np
 from PIL import Image
+import pillow_avif
 from typing import List, Tuple, Union
 from aiohttp import web
 from marshmallow import Schema, fields, ValidationError
